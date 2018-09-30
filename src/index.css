@@ -1,0 +1,25 @@
+#root, .simplebar-scroll-content {
+  height:100%;
+}
+#home-card {
+  vertical-align: middle;
+  display: inline-table;
+}
+#particles-bg {
+  height:100vh;
+}
+.home-logo {
+  margin-bottom:-80px;
+  margin-top:-25%;
+}
+.card-inner .card-box:hover {
+  background:orange;
+  color:black;
+}
+.lines-grid .row .col .lines .line-1, .lines-grid .row .col .lines .line-2 {
+  background:transparent;
+}
+div {
+  -webkit-transition:all 600ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: all 600ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
